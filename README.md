@@ -3,6 +3,7 @@
 Create a Fitness Tracker web applicaion with MongoDB, Mongoose schema and handle routes with Express, applying MVC Pattern then deploy to heroku.
 
 - [Fitness-Tracker-Web-Application: Heroku Demo](https://stark-gorge-35582.herokuapp.com/)
+- [React version: Workout Tracker](https://github.com/EunsooJung/Workout-Tracker-React.git)
 
 - [Applied to My Reponsive Portfolio](https://eunsoojung.github.io/Responsive-Portfolio/portfolio.html)
 
