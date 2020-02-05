@@ -13,14 +13,7 @@ module.exports = app => {
   });
 
   app.get('/api/workouts/range', (req, res) => {
-    db.Workout.find({})
-      .populate('exercises')
-      .then(exercises => {
-        res.json(exercises);
-      })
-      .catch(err => {
-        res.json(err);
-      });
+    // ????
   });
 
   app.post('/api/workouts', (req, res) => {
