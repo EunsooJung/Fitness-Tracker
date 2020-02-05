@@ -17,10 +17,10 @@ npm i body-parser
 # Install middleware
 npm i express
 
-# Install UI Templete Engine
+# CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
 npm i cors
 
-# Install MySQL
+# Install dotenv: Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
 npm i dotenv
 
 # Run
@@ -29,7 +29,7 @@ node server.js or npm start (using nodemon)
 
 ## Preview
 
-[![Fitness-Tracker](https://github.com/EunsooJung/Burger/blob/master/public/assets/img/Burgers-Demo.gif)](https://github.com/EunsooJung/Burger/blob/master/public/assets/img/Burgers-Demo.gif)
+[![Fitness-Tracker](https://github.com/EunsooJung/Fitness-Tracker/blob/master/public/images/Fitness%20Tracker-Demo.gif)](https://github.com/EunsooJung/Fitness-Tracker/blob/master/public/images/Fitness%20Tracker-Demo.gif)
 
 ## Usage
 
@@ -56,7 +56,7 @@ To start:
 
 - Project structure
 
-  [![Fitness-Tracker-Project-Structure](https://github.com/EunsooJung/Burger/blob/master/public/assets/img/burger-prj-structure.png)]
+  [![Fitness-Tracker-Project-Structure](https://github.com/EunsooJung/Fitness-Tracker/blob/master/public/images/Project-Structure.png)]
 
 - Source Code Check point
 
