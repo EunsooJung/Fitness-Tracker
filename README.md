@@ -61,7 +61,7 @@ To start:
 
 - Source Code Check point
 
-  1.  folder "models": It provides Mongoose Schema model
+1. folder "models": It provides Mongoose Schema model
 
 ```javascript
   const mongoose = require('mongoose');
@@ -84,8 +84,8 @@ To start:
   }
 ```
 
-2.  folder "public": As the view layer, it provides present html page and ui logic.
-    - api.js: Main role is communicate with Server API
+2. folder "public": As the view layer, it provides present html page and ui logic.
+   - api.js: Main role is communicate with Server API
 
 ```javascript
   async getLastWorkout() {
@@ -101,7 +101,7 @@ To start:
   }
 ```
 
-4. Controller layer: Server-Side routes
+3. Controller layer: Server-Side routes
 
 - Create all of this Fitness Tracker web application's routes (maps) using a exppress router.
 
@@ -119,7 +119,7 @@ app.get('/api/workouts', (req, res) => {
 });
 ```
 
-5. server.js:
+4. server.js:
    - Setup Fitness Tracker web applicaion's environments (npm package dependencies)
    - Import routes to access.
    - It provide MongoDB Atlas URI to connect cloud service
